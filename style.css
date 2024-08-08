@@ -226,6 +226,7 @@ textarea {
    }
    
     textarea#textArea{
+        color: white;
         margin-bottom: 0;
         width: 50%;
     }
@@ -233,6 +234,14 @@ textarea {
         align-items:center;
         
     }
+      .nuevo-boton{
+            
+            display: block;
+            margin-right: 0;
+            width: 100%;
+            justify-content: center;
+            
+        }
     .logoUno{
         margin-bottom: 150px;
 
@@ -262,6 +271,9 @@ textarea {
             height: 400px;
             box-sizing: border-box;
               
+        }
+         textarea#textArea{
+            color: white;
         }
     
         .parteDerecha {
@@ -296,6 +308,14 @@ textarea {
         .logoUno img{
             flex-direction: column;
 
+        }
+      .nuevo-boton{
+            
+            display: block;
+            margin-right: 0;
+            width: 100%;
+            justify-content: center;
+            
         }
        
 
