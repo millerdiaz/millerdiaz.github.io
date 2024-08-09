@@ -1,6 +1,3 @@
-/* style.css */
-
-
 *{
     font-family: "Roboto", sans-serif;
     
@@ -212,12 +209,89 @@ textarea {
     height: 39%;
 }
 
+@media (max-width: 1000px) {
+    * {
+        flex-direction: column;
+    }
+    
+    .parteIzquierda{
+        
+        width: 400px;
+        height: 400px;
+    }
+    #textArea{
+        
+        margin-bottom: 100px;
+        padding: 0px 0px 0px 0px;
+        max-height: 100%;
+        overflow:auto;
+        resize: none;
+        font-size: 20px;
+        color: #495057;
+        width: 400px;
+        height: 400px;
+        box-sizing: border-box;
+          
+    }
+    textarea#textArea{
+        color: white;
+    }
+
+    .parteDerecha {
+        width: 350px;
+        height: 200px;
+        margin: 10px 0;
+        
+    }
+    .parteDerecha img{
+        display: none;
+    }
+
+    .pieTexArea {
+        
+        padding-right: 10px;
+        font-size: 60%;
+        text-align: center; 
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button button {
+        
+        width: 45%;
+        margin: 5px;
+    }
+    .logoUno img{
+        flex-direction: column;
+
+    }
+   
+
+    .nuevo-boton{
+        width: 50%;
+        height: 40%;
+        align-self: center;
+        display: block;
+        margin-right: 0;   
+    }
+    
+
+}
+
+
 
 @media (max-width: 630px) {
     *{
         flex-direction: column;
         
     }
+    
    .parteIzquierda{
     margin-top: 0;
     margin-left: 20px;
@@ -229,98 +303,31 @@ textarea {
         color: white;
         margin-bottom: 0;
         width: 50%;
-    }
-   .button{
-        align-items:center;
         
     }
-      .nuevo-boton{
-            
-            display: block;
-            margin-right: 0;
-            width: 100%;
-            justify-content: center;
-            
-        }
+   
+   .button {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+        
+    }
+  
     .logoUno{
         margin-bottom: 150px;
 
     }
+    .nuevo-boton{
+        width: 50%;
+        height: 40%;
+        align-self: center;
+        display: block;
+        margin-right: 0;   
+    }
   
 }
-@media (max-width: 1000px) {
-    * {
-            flex-direction: column;
-        }
-        
-        .parteIzquierda{
-            
-            width: 400px;
-            height: 400px;
-        }
-        #textArea{
-            
-            margin-bottom: 100px;
-            padding: 0px 0px 0px 0px;
-            max-height: 100%;
-            overflow:auto;
-            resize: none;
-            font-size: 20px;
-            color: #495057;
-            width: 400px;
-            height: 400px;
-            box-sizing: border-box;
-              
-        }
-         textarea#textArea{
-            color: white;
-        }
-    
-        .parteDerecha {
-            width: 350px;
-            height: 200px;
-            margin: 10px 0;
-            
-        }
-        .parteDerecha img{
-            display: none;
-        }
-
-        .pieTexArea {
-            
-            padding-right: 10px;
-            font-size: 60%;
-            text-align: center; 
-        }
-
-        .button {
-            display: block;
-            margin-right: 0;
-            width: 100%;
-            justify-content: center;
-        }
-
-        .button button {
-            
-            width: 45%;
-            margin: 5px;
-        }
-        .logoUno img{
-            flex-direction: column;
-
-        }
-      .nuevo-boton{
-            
-            display: block;
-            margin-right: 0;
-            width: 100%;
-            justify-content: center;
-            
-        }
-       
-
-    }
-
     
 
    
